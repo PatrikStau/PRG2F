@@ -5,7 +5,7 @@ public class blabla {
     public static void main(String[] args) {
         //darování krve 18-65
         Scanner sc = new Scanner(System.in);
-        System.out.println("Zadejte věk od 0 do 100.");
+        System.out.println("Zadejte věk od 5 do 100.");
         int vek = sc.nextInt();
         if (vek >= 18 && vek <= 65) {
             System.out.println("Můžete darovat krev.");
