@@ -9,21 +9,19 @@ public class blabla {
         int vek = sc.nextInt();
         if (vek >= 18 && vek <= 65) {
             System.out.println("Můžete darovat krev.");
-        }
-        else {
+        } else {
             System.out.println("Nemůžete darovat krev.");
         }
 
         Random random = new Random();
-        int karta1 = random.nextInt(1,13);
-        int karta2 = random.nextInt(1,13);
+        int karta1 = random.nextInt(1, 13);
+        int karta2 = random.nextInt(1, 13);
         System.out.println(karta1);
         System.out.println(karta2);
         int soucet = karta1 + karta2;
         if (soucet == 21 || soucet < 10) {
             System.out.println("Vyhrál jsi.");
-        }
-        else {
+        } else {
             System.out.println("Prohrál jsi.");
         }
 
@@ -33,16 +31,13 @@ public class blabla {
         double celkovacena = 0;
         if (pocetlahvi > 50) {
             System.out.println("Celková cena je 0. Pokus o překupnictví.");
-        }
-        else if (pocetlahvi > 10) {
+        } else if (pocetlahvi > 10) {
             celkovacena = cena1 * pocetlahvi * 0.8;
             System.out.println("Celková cena se slevou 20% je " + celkovacena + "Kč");
-        }
-        else if (pocetlahvi > 5) {
+        } else if (pocetlahvi > 5) {
             celkovacena = cena1 * pocetlahvi * 0.9;
             System.out.println("Celková cena se slevou 10% je " + celkovacena + "Kč");
-        }
-        else {
+        } else {
             celkovacena = cena1 * pocetlahvi;
             System.out.println("Celková cena je " + celkovacena + "Kč");
         }
@@ -52,22 +47,20 @@ public class blabla {
         int vaha = sc.nextInt();
         if (vaha > 50 && vaha < 170) {
             System.out.println("Můžete darovat krev.");
-        }
-        else {
+        } else {
             System.out.println("Nemůžete darovat krev.");
         }
 
 
-        int kostka1 = random.nextInt(1,7);
-        int kostka2 = random.nextInt(1,7);
-        int kostka3 = random.nextInt(1,7);
+        int kostka1 = random.nextInt(1, 7);
+        int kostka2 = random.nextInt(1, 7);
+        int kostka3 = random.nextInt(1, 7);
         System.out.println(kostka1);
         System.out.println(kostka2);
         System.out.println(kostka3);
         if (kostka1 == kostka2 || kostka1 == kostka3 || kostka2 == kostka3) {
             System.out.println("Vyhrál jsi.");
-        }
-        else {
+        } else {
             System.out.println("Prohrál jsi.");
         }
 
@@ -78,16 +71,13 @@ public class blabla {
         if (spotreba >= 600) {
             cena1kwh = 5;
             System.out.println("Celková cena je " + cena1kwh * spotreba + " Kč.");
-        }
-        else if (spotreba >= 400) {
+        } else if (spotreba >= 400) {
             cena1kwh = 6;
             System.out.println("Celková cena je " + cena1kwh * spotreba + " Kč.");
-        }
-        else if (spotreba >= 200) {
+        } else if (spotreba >= 200) {
             cena1kwh = 7;
             System.out.println("Celková cena je " + cena1kwh * spotreba + " Kč.");
-        }
-        else {
+        } else {
             cena1kwh = 8;
             System.out.println("Celková cena je " + cena1kwh * spotreba + " Kč.");
         }
