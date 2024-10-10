@@ -115,10 +115,10 @@ public class Variables_cv {
 
         //F = °C × (9/5) + 32
 
-        //System.out.println("Zadej teplotu ve °C");
-        //double celsius = sca.nextDouble();
-        //double F = celsius * (9d/5d) + 32;
-        //System.out.println("Teplota ve F: " + F);
+        System.out.println("Zadej teplotu ve °C");
+        double celsius = sca.nextDouble();
+        double F = celsius * (9d/5d) + 32;
+        System.out.println("Teplota ve F: " + F);
 
         /** načíst horní a spodní mez
          * vypsat náhodné číslo v tom rozmezí
