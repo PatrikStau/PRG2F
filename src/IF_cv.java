@@ -33,7 +33,6 @@ public class IF_cv {
 
         System.out.println("Načti číslo");
         int b = sc.nextInt();
-        if 
 
 
 
