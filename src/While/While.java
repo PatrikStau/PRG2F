@@ -1,3 +1,5 @@
+package While;
+
 import java.util.Random;
 
 public class While {
