@@ -68,7 +68,7 @@ public class For_cv {
         System.out.println("Pannu jsi hodil: " + pocetpann + " krát");
         System.out.println("Panna v procentech " + ((pocetpann * 100.0) / pocethodu) + " %");
         System.out.println("Orla jsi hodil: " + pocetorlu + " krát");
-        System.out.println("Orel v procentech " + ((pocetorlu * 100.0) / pocethodu) + " %");
+        System.out.println("Orel v procentech: " + ((pocetorlu * 100.0) / pocethodu) + " %");
 
     }
 }
