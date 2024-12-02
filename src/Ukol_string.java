@@ -1,7 +1,6 @@
-import java.util.AbstractQueue;
 import java.util.Scanner;
 
-public class Úkol_string {
+public class Ukol_string {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Zadej jméno.");
