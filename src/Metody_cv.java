@@ -20,6 +20,10 @@ public class Metody_cv {
     static void print(String zprava){
         System.out.println(zprava);
     }
+    static double sum(double a, double b){
+        return a + b;
+    }
+
     public static void main(String[] args) {
 //        System.out.println(obvodTelesa());
 
@@ -28,7 +32,10 @@ public class Metody_cv {
 //        int vstup2 = nactiCislo(20);
 //        System.out.println(vstup1 + vstup2);
 //
-        print("Ahoj Metoději.");
+//        print("Ahoj Metoději.");
+
+        double vysledek = sum(5.6, 4.2);
+        System.out.println(vysledek);
 
 
     }
