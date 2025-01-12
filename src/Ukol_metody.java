@@ -6,18 +6,16 @@ public class Ukol_metody {
             return;
         }
         // heslo nesmí obsahovat slovo heslo
-        else if (password.toLowerCase().contains("heslo")){
+        if (password.toLowerCase().contains("heslo")){
             System.out.println("Heslo nesplňuje jednu z podmínek: \"obsahuje zakázané slovo\"");
             return;
         }
         // heslo musí být dlouhé maximálně 25 znaků
-        else if (password.length() > 25){
+        if (password.length() > 25){
             System.out.println("Heslo nesplňuje jednu z podmínek: \"moc dlouhé\"");
             return;
         }
-        else {
             System.out.println("Heslo je v pořádku.");
-        }
     }
 
     public static void main(String[] args) {
