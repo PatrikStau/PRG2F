@@ -1,3 +1,5 @@
+package Metody;
+
 import java.util.Scanner;
 
 public class Metody_cv {
@@ -25,14 +27,14 @@ public class Metody_cv {
     }
 
     public static void main(String[] args) {
-//        System.out.println(obvodTelesa());
+        System.out.println(obvodTelesa());
 
 
-//        int vstup1 = nactiCislo(11);
-//        int vstup2 = nactiCislo(20);
-//        System.out.println(vstup1 + vstup2);
-//
-//        print("Ahoj Metoději.");
+        int vstup1 = nactiCislo(11);
+        int vstup2 = nactiCislo(20);
+        System.out.println(vstup1 + vstup2);
+
+        print("Ahoj Metoději.");
 
         double vysledek = sum(5.6, 4.2);
         System.out.println(vysledek);

@@ -1,3 +1,5 @@
+package Metody;
+
 public class Ukol_metody {
     static void validatePassword(String password){
         // heslo musí být dlouhé minimálně 8 znaků
