@@ -1,3 +1,5 @@
+package Metody;
+
 import java.util.Scanner;
 
 public class MetodyCv2 {
