@@ -38,7 +38,6 @@ public class Metody_ukol2 {
         String uzivatelskeJmeno = jmenoOdUzivatele(jmeno, prijmeni);
         System.out.println(jmenoOdUzivatele(jmeno, prijmeni));
 
-        if (jmenoOdUzivatele().length())
 
     }
 }
