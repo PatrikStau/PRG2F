@@ -38,6 +38,13 @@ public class Metody_ukol2 {
         String uzivatelskeJmeno = jmenoOdUzivatele(jmeno, prijmeni);
         System.out.println(jmenoOdUzivatele(jmeno, prijmeni));
 
+        if (uzivatelskeJmeno.length() < 6){
+            System.out.println("Uživatelské jméno je moc krátké.");
+        }
+        else {
+            System.out.println("Uživatelské jméno je v pořádku.");
+        }
+
 
     }
 }
