@@ -1,17 +1,17 @@
 package OOP;
 
 public class Kruznice {
-    double r;
+    private double polomer;
 
-    public double vypoctiObvod(){
-        double obvod = 2 * Math.PI * r;
-        System.out.println(obvod);
-        return obvod;
+    public double getPolomer() {
+        return polomer;
     }
 
-    public double vypoctiObsah(){
-        double obsah = Math.PI * r * r;
-        System.out.println(obsah);
-        return obsah;
+    public void setPolomer(double polomer) {
+        if (polomer < 0.0) {
+            return;
+        }
+
+        this.polomer = polomer;
     }
 }

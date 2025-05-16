@@ -13,7 +13,7 @@ public class Main {
         kniha1.autor = "Ernest Hemingway";
         kniha1.vypisInfo();
 
-        Kruznice l = new Kruznice();
+        Kruznice_vypocty l = new Kruznice_vypocty();
         l.r = 1;
         l.vypoctiObvod();
         l.vypoctiObsah();
